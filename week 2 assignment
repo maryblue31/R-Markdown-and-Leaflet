@@ -1,0 +1,6 @@
+library(leaflet)
+
+my_map <- leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lng=23.7355, lat=37.97183, popup="Greek Parliament")
+my_map 
